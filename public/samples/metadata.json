@@ -1,0 +1,252 @@
+[
+  {
+    "filename": "image_001.jpg",
+    "label": "bonnet, poke bonnet",
+    "class_id": 0
+  },
+  {
+    "filename": "image_002.jpg",
+    "label": "langur",
+    "class_id": 2
+  },
+  {
+    "filename": "image_003.jpg",
+    "label": "Doberman, Doberman pinscher",
+    "class_id": 3
+  },
+  {
+    "filename": "image_004.jpg",
+    "label": "gyromitra",
+    "class_id": 4
+  },
+  {
+    "filename": "image_005.jpg",
+    "label": "Saluki, gazelle hound",
+    "class_id": 5
+  },
+  {
+    "filename": "image_006.jpg",
+    "label": "vacuum, vacuum cleaner",
+    "class_id": 6
+  },
+  {
+    "filename": "image_007.jpg",
+    "label": "carbonara",
+    "class_id": 11
+  },
+  {
+    "filename": "image_008.jpg",
+    "label": "computer keyboard, keypad",
+    "class_id": 13
+  },
+  {
+    "filename": "image_009.jpg",
+    "label": "tripod",
+    "class_id": 14
+  },
+  {
+    "filename": "image_010.jpg",
+    "label": "American lobster, Northern lobster, Maine lobster, Homarus americanus",
+    "class_id": 16
+  },
+  {
+    "filename": "image_011.jpg",
+    "label": "bannister, banister, balustrade, balusters, handrail",
+    "class_id": 17
+  },
+  {
+    "filename": "image_012.jpg",
+    "label": "tile roof",
+    "class_id": 19
+  },
+  {
+    "filename": "image_013.jpg",
+    "label": "papillon",
+    "class_id": 20
+  },
+  {
+    "filename": "image_014.jpg",
+    "label": "stinkhorn, carrion fungus",
+    "class_id": 22
+  },
+  {
+    "filename": "image_015.jpg",
+    "label": "Chihuahua",
+    "class_id": 24
+  },
+  {
+    "filename": "image_016.jpg",
+    "label": "Chesapeake Bay retriever",
+    "class_id": 25
+  },
+  {
+    "filename": "image_017.jpg",
+    "label": "tub, vat",
+    "class_id": 27
+  },
+  {
+    "filename": "image_018.jpg",
+    "label": "Great Dane",
+    "class_id": 28
+  },
+  {
+    "filename": "image_019.jpg",
+    "label": "rotisserie",
+    "class_id": 29
+  },
+  {
+    "filename": "image_020.jpg",
+    "label": "throne",
+    "class_id": 31
+  },
+  {
+    "filename": "image_021.jpg",
+    "label": "lorikeet",
+    "class_id": 35
+  },
+  {
+    "filename": "image_022.jpg",
+    "label": "car wheel",
+    "class_id": 38
+  },
+  {
+    "filename": "image_023.jpg",
+    "label": "toy terrier",
+    "class_id": 43
+  },
+  {
+    "filename": "image_024.jpg",
+    "label": "wing",
+    "class_id": 46
+  },
+  {
+    "filename": "image_025.jpg",
+    "label": "cauliflower",
+    "class_id": 51
+  },
+  {
+    "filename": "image_026.jpg",
+    "label": "purse",
+    "class_id": 53
+  },
+  {
+    "filename": "image_027.jpg",
+    "label": "hare",
+    "class_id": 54
+  },
+  {
+    "filename": "image_028.jpg",
+    "label": "standard poodle",
+    "class_id": 57
+  },
+  {
+    "filename": "image_029.jpg",
+    "label": "Shih-Tzu",
+    "class_id": 58
+  },
+  {
+    "filename": "image_030.jpg",
+    "label": "English foxhound",
+    "class_id": 62
+  },
+  {
+    "filename": "image_031.jpg",
+    "label": "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
+    "class_id": 64
+  },
+  {
+    "filename": "image_032.jpg",
+    "label": "theater curtain, theatre curtain",
+    "class_id": 67
+  },
+  {
+    "filename": "image_033.jpg",
+    "label": "dung beetle",
+    "class_id": 68
+  },
+  {
+    "filename": "image_034.jpg",
+    "label": "hognose snake, puff adder, sand viper",
+    "class_id": 69
+  },
+  {
+    "filename": "image_035.jpg",
+    "label": "mortarboard",
+    "class_id": 71
+  },
+  {
+    "filename": "image_036.jpg",
+    "label": "slide rule, slipstick",
+    "class_id": 75
+  },
+  {
+    "filename": "image_037.jpg",
+    "label": "cinema, movie theater, movie theatre, movie house, picture palace",
+    "class_id": 77
+  },
+  {
+    "filename": "image_038.jpg",
+    "label": "kuvasz",
+    "class_id": 79
+  },
+  {
+    "filename": "image_039.jpg",
+    "label": "harmonica, mouth organ, harp, mouth harp",
+    "class_id": 81
+  },
+  {
+    "filename": "image_040.jpg",
+    "label": "sarong",
+    "class_id": 82
+  },
+  {
+    "filename": "image_041.jpg",
+    "label": "hard disc, hard disk, fixed disk",
+    "class_id": 84
+  },
+  {
+    "filename": "image_042.jpg",
+    "label": "reel",
+    "class_id": 86
+  },
+  {
+    "filename": "image_043.jpg",
+    "label": "iron, smoothing iron",
+    "class_id": 88
+  },
+  {
+    "filename": "image_044.jpg",
+    "label": "tabby, tabby cat",
+    "class_id": 89
+  },
+  {
+    "filename": "image_045.jpg",
+    "label": "ski mask",
+    "class_id": 90
+  },
+  {
+    "filename": "image_046.jpg",
+    "label": "stretcher",
+    "class_id": 93
+  },
+  {
+    "filename": "image_047.jpg",
+    "label": "Dutch oven",
+    "class_id": 94
+  },
+  {
+    "filename": "image_048.jpg",
+    "label": "African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus",
+    "class_id": 95
+  },
+  {
+    "filename": "image_049.jpg",
+    "label": "gasmask, respirator, gas helmet",
+    "class_id": 97
+  },
+  {
+    "filename": "image_050.jpg",
+    "label": "borzoi, Russian wolfhound",
+    "class_id": 99
+  }
+]
