@@ -1,6 +1,6 @@
 # ImageNet100 Viewer
 
-An academic React web application for exploring a 50-image subset of the ImageNet100 dataset. The viewer displays each image, its ground-truth classification label, and user-created bounding-box annotations.
+A React web application for exploring a 50-image subset of the ImageNet100 dataset. The viewer displays each image, its ground truth classification label, and user-created bounding-box annotations.
 
 ## Data
 
@@ -9,7 +9,7 @@ The visualized data is image classification research data. The sample images and
 ## Features
 
 - Browse and select sample images.
-- View filenames and ground-truth classification labels.
+- View filenames and ground truth classification labels.
 - Zoom and pan the selected image.
 - Draw multiple bounding boxes in Annotation Mode.
 - Add text labels to regions, save them to SQLite, retrieve them, and delete them.
@@ -45,8 +45,6 @@ source .venv/bin/activate
 pip install -r backend/requirements.txt
 uvicorn backend.main:app --reload --port 8000
 ```
-
-On Windows, activate the environment with `.venv\\Scripts\\activate` instead.
 
 ## Main libraries
 
