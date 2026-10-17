@@ -1,0 +1,64 @@
+{
+  "classes": [
+    "tabby",
+    "cauliflower",
+    "computer keyboard"
+  ],
+  "models": {
+    "linear_baseline": {
+      "checkpoint": "/Users/lengx/Desktop/viewer/imagenet100-viewer/training/outputs/linear_baseline/best_model.pt",
+      "selected_epoch": 22,
+      "test_images": 150,
+      "correct": 90,
+      "incorrect": 60,
+      "loss": 0.8866796239217123,
+      "accuracy": 0.6,
+      "error_rate": 0.4,
+      "confusion_matrix": [
+        [
+          30,
+          6,
+          14
+        ],
+        [
+          8,
+          37,
+          5
+        ],
+        [
+          10,
+          17,
+          23
+        ]
+      ]
+    },
+    "two_hidden": {
+      "checkpoint": "/Users/lengx/Desktop/viewer/imagenet100-viewer/training/outputs/two_hidden/best_model.pt",
+      "selected_epoch": 46,
+      "test_images": 150,
+      "correct": 94,
+      "incorrect": 56,
+      "loss": 0.8339163716634115,
+      "accuracy": 0.6266666666666667,
+      "error_rate": 0.37333333333333335,
+      "confusion_matrix": [
+        [
+          32,
+          2,
+          16
+        ],
+        [
+          12,
+          36,
+          2
+        ],
+        [
+          13,
+          11,
+          26
+        ]
+      ]
+    }
+  },
+  "mlp_accuracy_difference_percentage_points": 2.6666666666666727
+}

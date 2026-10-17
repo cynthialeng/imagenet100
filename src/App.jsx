@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import PredictionPanel from './PredictionPanel'
+import ResultsPanel from './ResultsPanel'
+import TrainingPanel from './TrainingPanel'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = '/api'
 
 function App() {
   const [images, setImages] = useState([])
@@ -351,6 +354,9 @@ function App() {
           )}
         </section>
       </section>}
+      <PredictionPanel />
+      <ResultsPanel />
+      <TrainingPanel />
     </main>
   )
 }

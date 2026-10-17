@@ -303,6 +303,337 @@ h1 {
   flex-shrink: 0;
 }
 
+.prediction-panel {
+  margin-top: 32px;
+  padding: 24px;
+  border: 1px solid #d8e1dc;
+  background: #ffffff;
+  color: #52635d;
+}
+
+.prediction-panel h2,
+.prediction-panel h3 {
+  margin: 0 0 12px;
+  color: #173f35;
+}
+
+.prediction-intro {
+  line-height: 1.6;
+}
+
+.prediction-inputs {
+  display: grid;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.prediction-inputs label {
+  display: grid;
+  min-width: 0;
+  gap: 8px;
+  color: #173f35;
+  font-size: 0.9rem;
+}
+
+.prediction-inputs select,
+.prediction-inputs input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #b9cbc2;
+  background: #ffffff;
+  color: #41534d;
+  font: inherit;
+}
+
+.prediction-preview {
+  margin-bottom: 20px;
+  padding: 16px;
+  background: #edf2ef;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.prediction-preview img {
+  display: block;
+  max-width: 100%;
+  max-height: 240px;
+  margin: auto;
+  object-fit: contain;
+}
+
+.prediction-preview p {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+}
+
+.predict-button {
+  padding: 10px 18px;
+  border: 1px solid #173f35;
+  background: #173f35;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.predict-button:hover:not(:disabled) {
+  background: #356859;
+}
+
+.predict-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.prediction-result {
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #e28f45;
+  background: #fff8ed;
+}
+
+.probability-row {
+  margin-top: 14px;
+}
+
+.probability-row > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 0.85rem;
+}
+
+.probability-row progress {
+  width: 100%;
+  height: 10px;
+  accent-color: #356859;
+}
+
+.prediction-panel > .hint {
+  line-height: 1.6;
+}
+
+.results-panel,
+.training-panel {
+  margin-top: 32px;
+  padding: 24px;
+  border: 1px solid #d8e1dc;
+  background: white;
+  color: #52635d;
+  line-height: 1.65;
+}
+
+.results-panel h2,
+.results-panel h3,
+.training-panel > h2 {
+  margin: 0 0 12px;
+  color: #173f35;
+}
+
+.results-panel h3 {
+  margin-top: 24px;
+  font-size: 1rem;
+}
+
+.results-intro {
+  margin-top: 0;
+}
+
+.model-facts {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  background: #edf2ef;
+}
+
+.model-facts span,
+.model-facts strong {
+  display: block;
+}
+
+.model-facts span {
+  font-size: 0.8rem;
+}
+
+.model-facts strong {
+  color: #173f35;
+}
+
+.results-table-wrap {
+  overflow-x: auto;
+  margin-top: 24px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.results-table caption {
+  margin-bottom: 10px;
+  color: #173f35;
+  font-weight: 700;
+  text-align: left;
+}
+
+.results-table th,
+.results-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #d8e1dc;
+  text-align: right;
+}
+
+.results-table th:first-child {
+  text-align: left;
+}
+
+.results-table thead {
+  background: #edf2ef;
+  color: #173f35;
+}
+
+.training-figure {
+  margin: 24px 0;
+}
+
+.training-figure img {
+  display: block;
+  width: 100%;
+  border: 1px solid #d8e1dc;
+  box-sizing: border-box;
+}
+
+.training-figure figcaption {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+.training-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.training-form label {
+  display: grid;
+  flex: 1 1 120px;
+  gap: 6px;
+  color: #173f35;
+  font-size: 0.9rem;
+}
+
+.training-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #b9cbc2;
+  background: white;
+  color: #173f35;
+  font: inherit;
+}
+
+.learning-rate-input {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.learning-rate-input::-webkit-inner-spin-button,
+.learning-rate-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.secondary-button {
+  padding: 10px 14px;
+  border: 1px solid #b9cbc2;
+  background: white;
+  color: #173f35;
+  cursor: pointer;
+  font: inherit;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background: #fff8ed;
+  border-color: #e28f45;
+}
+
+.secondary-button:disabled,
+.training-form input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.training-status {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.training-status strong {
+  color: #173f35;
+}
+
+.training-progress {
+  width: 100%;
+  margin: 10px 0 20px;
+  accent-color: #356859;
+}
+
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 0.85rem;
+}
+
+.chart-legend span::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-top: 3px solid;
+}
+
+.legend-train { color: #356859; }
+.legend-val { color: #b8651c; }
+.chart-train { stroke: #356859; fill: #356859; }
+.chart-val { stroke: #b8651c; fill: #b8651c; }
+.chart-grid { stroke: #d8e1dc; }
+
+.live-chart {
+  margin: 18px 0;
+}
+
+.live-chart figcaption {
+  color: #173f35;
+  font-weight: 700;
+}
+
+.live-chart svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+.live-chart text {
+  font-family: inherit;
+  font-size: 11px;
+  fill: #52635d;
+}
+
+.training-panel > .prediction-panel {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f7faf8;
+}
+
 @media (max-width: 600px) {
   .page {
     padding: 36px 14px;

@@ -149,3 +149,6 @@ __pycache__/
 *.py[cod]
 .venv/
 backend/data/
+
+# Experiments started from the web app
+training/outputs/interactive/

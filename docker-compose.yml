@@ -7,3 +7,4 @@ services:
       - "8000:8000"
     volumes:
       - ./backend/data:/app/backend/data
+      - ./training/outputs/interactive:/app/training/outputs/interactive
