@@ -1,0 +1,17 @@
+{
+  "variant": "mlp_only",
+  "seed": 42,
+  "status": "completed",
+  "parameters": 401795,
+  "best": {
+    "epoch": 45,
+    "train_loss": 0.7706554706891378,
+    "train_accuracy": 0.6566666666666666,
+    "val_loss": 0.8761044184366862,
+    "val_accuracy": 0.6133333333333333,
+    "seconds": 0.23963025002740324,
+    "gate": null
+  },
+  "total_seconds": 25.932962541934103,
+  "mean_epoch_seconds": 0.25812669794308024
+}

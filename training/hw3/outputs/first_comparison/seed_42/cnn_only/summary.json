@@ -1,0 +1,17 @@
+{
+  "variant": "cnn_only",
+  "seed": 42,
+  "status": "completed",
+  "parameters": 7395,
+  "best": {
+    "epoch": 100,
+    "train_loss": 1.0852050590515137,
+    "train_accuracy": 0.45166666666666666,
+    "val_loss": 1.0917033386230468,
+    "val_accuracy": 0.4066666666666667,
+    "seconds": 0.4045181251130998,
+    "gate": null
+  },
+  "total_seconds": 41.313374374993145,
+  "mean_epoch_seconds": 0.41245204250328243
+}

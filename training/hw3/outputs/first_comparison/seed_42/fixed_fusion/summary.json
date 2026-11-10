@@ -1,0 +1,50 @@
+{
+  "variant": "fixed_fusion",
+  "seed": 42,
+  "status": "completed",
+  "parameters": 408995,
+  "best": {
+    "epoch": 93,
+    "train_loss": 0.7163650345802307,
+    "train_accuracy": 0.685,
+    "val_loss": 0.8752285257975261,
+    "val_accuracy": 0.62,
+    "seconds": 0.42314558289945126,
+    "gate": {
+      "mean": 0.5,
+      "std": 0.0,
+      "min": 0.5,
+      "max": 0.5,
+      "fraction_below_0_05": 0.0,
+      "fraction_above_0_95": 0.0,
+      "by_class": {
+        "tabby": {
+          "mean": 0.5,
+          "std": 0.0,
+          "min": 0.5,
+          "max": 0.5,
+          "fraction_below_0_05": 0.0,
+          "fraction_above_0_95": 0.0
+        },
+        "cauliflower": {
+          "mean": 0.5,
+          "std": 0.0,
+          "min": 0.5,
+          "max": 0.5,
+          "fraction_below_0_05": 0.0,
+          "fraction_above_0_95": 0.0
+        },
+        "computer keyboard": {
+          "mean": 0.5,
+          "std": 0.0,
+          "min": 0.5,
+          "max": 0.5,
+          "fraction_below_0_05": 0.0,
+          "fraction_above_0_95": 0.0
+        }
+      }
+    }
+  },
+  "total_seconds": 43.322559707798064,
+  "mean_epoch_seconds": 0.4317390370974317
+}

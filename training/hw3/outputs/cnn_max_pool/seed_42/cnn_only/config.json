@@ -1,0 +1,29 @@
+{
+  "variant": "cnn_only",
+  "seed": 42,
+  "epochs": 100,
+  "global_pooling": "max",
+  "learning_rate": 0.01,
+  "batch_size": 32,
+  "optimizer": "SGD",
+  "momentum": 0,
+  "weight_decay": 0,
+  "device": "cpu",
+  "threads": 1,
+  "deterministic_algorithms": true,
+  "data_dir": "/Users/lengx/Desktop/viewer/imagenet100-viewer/data/hw2",
+  "manifest_sha256": "2925b4f364f56dffca848a9484456bc064a18fb1679cb9e11b4b634e3cffcb58",
+  "classes": [
+    "tabby",
+    "cauliflower",
+    "computer keyboard"
+  ],
+  "image_size": 32,
+  "train_images": 600,
+  "val_images": 150,
+  "preprocessing": "RGB, bilinear resize 32x32, float32 pixels / 255",
+  "checkpoint_selection": "lowest validation cross-entropy loss",
+  "torch_version": "2.14.1",
+  "python_version": "3.11.4",
+  "platform": "macOS-15.6.1-arm64-arm-64bit"
+}
