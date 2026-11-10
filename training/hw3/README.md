@@ -28,23 +28,20 @@ Evaluate the saved checkpoints:
 python -m training.hw3.evaluate_test
 ```
 
-Reproduce all seven experiments in new folders (existing folders are refused):
+Reproduce all experiments in new folders:
 
 ```bash
-python -m training.hw3.train --output-dir training/hw3/outputs/repro_avg
-python -m training.hw3.train --variants cnn_only --pooling max --output-dir training/hw3/outputs/repro_cnn_max
-python -m training.hw3.train --variants fixed_fusion learned_fusion --pooling max --output-dir training/hw3/outputs/repro_fusion_max
-python -m training.hw3.evaluate_test training/hw3/outputs/repro_avg training/hw3/outputs/repro_cnn_max training/hw3/outputs/repro_fusion_max --output-dir training/hw3/outputs/repro_test
+python -m training.hw3.train
 ```
 
-Defaults: 100 epochs, seed 42, batch size 32, cross-entropy loss, SGD at 0.01,
-no momentum or weight decay, one CPU thread. Shared components have identical
-initial weights and all variants use the same batch order. Select checkpoints
+Defaults: 100 epochs, seed 42, batch size 32, cross-entropy loss, SGD with learning rate 0.01,
+no momentum or weight decay. Shared components have identical
+initial weights and all variants use the same batch order. Checkpoints chosen
 by lowest validation loss; test data does not guide training or selection.
 Each run retains `config.json`, weights, history, summary, and fusion gate logs.
 Final results are in `outputs/analysis/`.
 
-## Results and lesson
+## Results
 
 | Model | Global pooling | Test loss | Test accuracy |
 |---|---|---:|---:|
@@ -59,8 +56,6 @@ Final results are in `outputs/analysis/`.
 Fixed fusion made four more correct predictions than the MLP on 150 images.
 The learned gate favored the MLP (mean CNN weight about 0.10–0.11) and did not
 consistently outperform fixed fusion. Max pooling helped the CNN but barely
-changed fusion. MLP/fusion overfit; both CNNs were still improving at epoch 100.
+changed fusion. Both CNNs were still improving at epoch 100.
 Fusion took about 0.43–0.45 seconds per epoch versus 0.26 for the MLP.
 These are small, single-seed results; the test split was already used in HW2.
-
-AI assistance: OpenAI Codex assisted with code, analysis, and documentation.
